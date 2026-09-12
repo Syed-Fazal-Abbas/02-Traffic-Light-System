@@ -1,4 +1,4 @@
-# 02-Traffic-Light-System
+# 03-Traffic-Light-System
 An Arduino-based Traffic light system
 Project 3: Traffic Light Controller
 
@@ -21,7 +21,8 @@ How It Works
 
 All three LEDs are connected to separate digital pins — Red (Pin 8), Yellow (Pin 10), and Green (Pin 12). The code follows a sequence: first, the Red LED turns ON for 3 seconds, then the Yellow LED turns ON for 1 second (both LEDs are ON at the same time, just like in a real traffic light). Then, both LEDs turn OFF and the Green LED turns ON for 3 seconds. At the end, the Green LED blinks 3 times as a warning, and then the complete cycle repeats.
 
-Code
+Code:
+
 cpp
 // Traffic Light Controller for Arduino Uno
 // Pins Setup:
@@ -62,10 +63,11 @@ void loop() {
   digitalWrite(12, LOW);
   delay(1000);
 }
+'''
 
 Demo Video
 
-[Add the video link here]
+[https://youtu.be/MUFxugXwVS0?si=dCrLtRexyiBoHLBy]
 
 What I Learned
 
