@@ -23,7 +23,8 @@ All three LEDs are connected to separate digital pins — Red (Pin 8), Yellow (P
 
 Code:
 
-cpp
+```cpp
+
 // Traffic Light Controller for Arduino Uno
 // Pins Setup:
 // Red LED    -> Pin 8
@@ -63,7 +64,7 @@ void loop() {
   digitalWrite(12, LOW);
   delay(1000);
 }
-'''
+```
 
 Demo Video
 
